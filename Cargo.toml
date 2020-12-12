@@ -1,0 +1,12 @@
+[package]
+name = "bytes-literal"
+version = "0.1.0"
+description = "Literal type for use with bytes crate"
+authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
+edition = "2021"
+license = "MPL-2.0"
+readme = "README.md"
+
+[dependencies]
+bytes = { version = "1", default-features = false }
+hex-literal = { version = "0.3", default-features = false }
